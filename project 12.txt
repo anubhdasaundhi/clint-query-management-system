@@ -1,0 +1,58 @@
+ *please tell me notes of that
+project name
+objective of project-to create a where user can submit the query 
+#to visual the graphical projection
+
+#Objective of the file
+
+Client query management
+#it is a lifecycle of the clint query manangment  the end to end project
+
+Here we have use  pages  loin,clint,dashboard,Registrtion
+
+loin page- as you can see i have import all the  liabrary here steamlit,pandas,sql.connector, (login is the central hub)
+## importing libraries steamlit,pandas,sql.connector,
+#creating the connection wiith DB 
+authenticating the username and password
+#encoding the provided password to check if its matching with the one in the DB
+# creating the authentication factor.
+#  by using the def function authenticate_user
+### creating loging form is created for the enrty
+
+## condition processing to switch the pages to registration form, client query and support dashboard basis on the entries
+
+#clint page-
+# data connection   import streamlit as st,from datetime import datetime,import mysql.connecto, used libraries
+# # saving Query into database  using  def insert query function
+# # creating Streamlit UI for query submission on the below field-
+emailid,mobile no,queryheading,querydescription,
+#if submitted the auto genrated # creating Streamlit UI we used 
+
+#dashboard page-connecting with db  host="localhost",
+        user="bankONE",
+        password="0701",
+        database="P1
+#fetching query from db then see the status and details in the tabeluar form after that
+there is a  Close a Query tab where we can closed
+# Filtering only open queries for closure
+# query created per day  by time 
+# the we have visual represntation of query management
+Queries Created Per Day
+ Query Status Distribution
+ Queries Closed Per Day
+
+#### registration page ###############
+connect  to db
+create_connection
+#st.button ('Register')
+he submit button must be inside the form
+   # submit_button = st.form_submit_button(label="Register")
+ Check if username/email exists : if exits then said alreadu exist and fetch  if not then 
+ Please provide the requested information and click
+then details on the bottom
+
+
+
+
+
+
